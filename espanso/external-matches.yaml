@@ -105,6 +105,12 @@ matches:
   - trigger: ":finish"
     replace: "🏁"
 
+  - trigger: ":thumbup"
+    replace: "👍"
+
+  - trigger: ":thumbdown"
+    replace: "👎"
+
   - trigger: ":root_folder"
     replace: "{{output}}"
     vars:
