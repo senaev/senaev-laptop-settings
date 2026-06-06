@@ -1,0 +1,5 @@
+# mkdir -p ~/projects/senaev-laptop-settings/ghostty
+# mv "$HOME/Library/Application Support/com.mitchellh.ghostty/config.ghostty" ~/projects/senaev-laptop-settings/ghostty/config.ghostty
+# ln -s ~/projects/senaev-laptop-settings/ghostty/config.ghostty "$HOME/Library/Application Support/com.mitchellh.ghostty/config.ghostty"
+font-family = "MesloLGS Nerd Font Mono"
+keybind = global:cmd+grave_accent=toggle_quick_terminal
