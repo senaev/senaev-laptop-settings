@@ -11,7 +11,7 @@ $character"""
 
 [character]
 success_symbol = "[](bold #394260)"
-error_symbol = "[](bold #603939)"
+error_symbol = "[](bold #f03939)"
 
 [directory]
 style = "fg:#e3e5e5 bg:#769ff0"
