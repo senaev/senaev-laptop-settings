@@ -7,6 +7,7 @@
 plugins=(git docker kubectl sudo history zsh-autosuggestions zsh-syntax-highlighting)
 ZSH_THEME=""
 
+alias 'm=git add .;git commit -m "@andrei.senaev default message";git push'
 alias 'main=git checkout main;git pull'
 function pr() {
     local BRANCH=$(git rev-parse --abbrev-ref HEAD)

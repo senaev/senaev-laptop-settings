@@ -111,6 +111,9 @@ matches:
   - trigger: ":thumbdown"
     replace: "👎"
 
+  - trigger: ":lipstick"
+    replace: "💄"
+
   - trigger: ":root_folder"
     replace: "{{output}}"
     vars:
