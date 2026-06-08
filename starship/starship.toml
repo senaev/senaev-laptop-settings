@@ -4,14 +4,14 @@ add_newline = false
 
 format = """
 $directory\
-[](fg:#769ff0 bg:#394260)\
+[](fg:#769ff0 bg:#394260)\
 $git_branch\
 $git_status\
 $character"""
 
 [character]
-success_symbol = "[](bold #396050)"
-error_symbol = "[](bold #603939)"
+success_symbol = "[](bold #394260)"
+error_symbol = "[](bold #603939)"
 
 [directory]
 style = "fg:#e3e5e5 bg:#769ff0"
