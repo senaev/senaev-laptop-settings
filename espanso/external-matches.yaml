@@ -9,7 +9,6 @@
 #  - "/Users/senaev/projects/senaev-keyboard-settings/espanso/external-matches.yaml"
 
 matches:
-
   - trigger: ":dd"
     replace: "{{mydate}}"
     vars:
@@ -66,10 +65,10 @@ matches:
   - trigger: ":blue"
     replace: "🔵"
 
-  - trigger: ":->"
+  - trigger: "->"
     replace: "→"
 
-  - trigger: ":<-"
+  - trigger: "<-"
     replace: "←"
 
   - trigger: ":new"
@@ -113,6 +112,9 @@ matches:
 
   - trigger: ":lipstick"
     replace: "💄"
+
+  - trigger: ":coffin"
+    replace: "⚰️"
 
   - trigger: ":root_folder"
     replace: "{{output}}"
