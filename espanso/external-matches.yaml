@@ -116,6 +116,15 @@ matches:
   - trigger: ":coffin"
     replace: "⚰️"
 
+  - trigger: ":cat"
+    replace: "🐈"
+
+  - trigger: ":dog"
+    replace: "🐕"
+
+  - trigger: ":handshake"
+    replace: "🤝"
+
   - trigger: ":root_folder"
     replace: "{{output}}"
     vars:

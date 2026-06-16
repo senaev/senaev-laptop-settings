@@ -15,7 +15,7 @@ function pr() {
 }
 
 
-alias 'web-ui=cd $DATADOG_ROOT/web-ui'
+alias 'web-ui=cd /Users/andrei.senaev/go/src/github.com/DataDog/web-ui'
 alias 'preprod=git checkout preprod;git pull'
 
 export DOCKER_HOST="unix://$HOME/.colima/default/docker.sock"
