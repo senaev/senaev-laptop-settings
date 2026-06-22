@@ -125,6 +125,12 @@ matches:
   - trigger: ":handshake"
     replace: "🤝"
 
+  - trigger: ":tada"
+    replace: "🎉"
+
+  - trigger: ":robot"
+    replace: "🤖"
+
   - trigger: ":root_folder"
     replace: "{{output}}"
     vars:
