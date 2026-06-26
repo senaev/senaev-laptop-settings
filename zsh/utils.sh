@@ -21,6 +21,9 @@ alias 'preprod=git checkout preprod;git pull'
 export DOCKER_HOST="unix://$HOME/.colima/default/docker.sock"
 export TESTCONTAINERS_DOCKER_SOCKET_OVERRIDE=/var/run/docker.sock
 
+export EDITOR="nano"`
+export VISUAL="nano"
+
 function checkout() {
   if [[ $# -ne 2 ]]; then
     echo "Usage: ch <task-name> <branch-name>" >&2
