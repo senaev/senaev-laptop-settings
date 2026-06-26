@@ -21,7 +21,7 @@ alias 'preprod=git checkout preprod;git pull'
 export DOCKER_HOST="unix://$HOME/.colima/default/docker.sock"
 export TESTCONTAINERS_DOCKER_SOCKET_OVERRIDE=/var/run/docker.sock
 
-export EDITOR="nano"`
+export EDITOR="nano"
 export VISUAL="nano"
 
 function checkout() {
