@@ -131,6 +131,15 @@ matches:
   - trigger: ":robot"
     replace: "🤖"
 
+  - trigger: ":eyes"
+    replace: "👀"
+
+  - trigger: ":smile"
+    replace: "😊"
+
+  - trigger: ":laugh"
+    replace: "😄"
+
   - trigger: ":root_folder"
     replace: "{{output}}"
     vars:
