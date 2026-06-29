@@ -97,7 +97,7 @@ function commit() {
 function worktrees() {
   local tmp result action wt_path
   tmp=$(mktemp)
-  node ~/.config/opencode/scripts/worktrees/index.mjs "$tmp"
+  node ~/.config/opencode/scripts/worktrees/index.mjs "$tmp" "$@"
   result=$(cat "$tmp" 2>/dev/null)
   rm -f "$tmp"
   [[ -z "$result" ]] && return
