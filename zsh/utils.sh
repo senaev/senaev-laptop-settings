@@ -90,3 +90,18 @@ function commit() {
 
   git commit -m "$ticket_name: $message"
 }
+
+# Worktree manager — interactive TUI for opencode worktrees.
+# Usage: wt
+# The shell wrapper is required because a Node subprocess cannot cd the parent shell.
+function worktrees() {
+  local tmp result action wt_path
+  tmp=$(mktemp)
+  node ~/.config/opencode/scripts/worktrees/index.mjs "$tmp"
+  result=$(cat "$tmp" 2>/dev/null)
+  rm -f "$tmp"
+  [[ -z "$result" ]] && return
+  action="${result%%	*}"
+  wt_path="${result#*	}"
+  [[ "$action" == "cd" ]] && cd "$wt_path"
+}
