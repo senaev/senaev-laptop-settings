@@ -101,7 +101,7 @@ matches:
   - trigger: ":link"
     replace: "🔗"
 
-  - trigger: ":finish"
+  - trigger: ":fin"
     replace: "🏁"
 
   - trigger: ":thumbup"
