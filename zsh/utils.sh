@@ -105,3 +105,7 @@ function worktrees() {
   wt_path="${result#*	}"
   [[ "$action" == "cd" ]] && cd "$wt_path"
 }
+
+# initialize Starship
+export STARSHIP_CONFIG="$HOME/projects/senaev-laptop-settings/starship/starship.toml"
+eval "$(starship init zsh)"
